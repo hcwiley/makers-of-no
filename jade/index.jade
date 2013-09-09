@@ -1,13 +1,14 @@
-!!!
+doctype 5
 html
   head
-    title Makers of NO
-    link(type='text/css', rel='stylesheet', href='./css/index.css')
-    //-link(rel='icon', type='image/x-icon', href='./images/fav.gif')
-    <link href='http://fonts.googleapis.com/css?family=Economica:400,700,700italic|Adamina' rel='stylesheet' type='text/css'>
+    title makers of no
+    link(href="css/client.css", rel="stylesheet")
+    meta(name="description", content="Makers of NO. A maker group based in New Orleans, LA.")
+    meta(name="keywords", content="maker, makers, hacker, hackers, maker space, space, group, maker group, robotics, hacking, making, nola, new orleans,  louisiana")
+    meta(name="author", content="H. Cole Wiley")
     script(type='text/javascript')
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-37521739-1']);
+      _gaq.push(['_setAccount', 'UA-35103017-1']);
       _gaq.push(['_trackPageview']);
 
       (function() {
@@ -15,21 +16,26 @@ html
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
   body
-    #todo
-      h1 Makers of NO
-      br
-      br
-      .stripe
-        p we <strong>make</strong> things.
-        p we <strong>hack</strong> things.
-        p we <strong>live</strong> in New Orleans.
-      br
-      .content
-        p We meet every wednesday @ 1201 Mazant
-        | from 6pm till the party winds down.
-        #links
-          a(href='mailto:makersofno@hcwiley.com', target='blank', title='not so snailish mail')
+    #main
+      #logo
+        h1.hidden Makers of NO
+        img(src='/img/logo.svg', title='Makers of NO')
+      .right
+        .stripe
+          p we <strong>make</strong> things.
+          p we <strong>hack</strong> things.
+          p we <strong>live</strong> in nola.
+          br
+          hr
+          br
+          p we meet every wednesday
+          a(href='https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1201+Mazant+St,+New+Orleans,+LA&aq=0&oq=1201&sll=30.032996,-89.882563&sspn=0.378073,0.475845&vpsrc=0&t=h&ie=UTF8&hq=&hnear=1201+Mazant+St,+New+Orleans,+Louisiana+70117&z=16&iwloc=A', target='_blank') @ 1201 Mazant
+          p from 7pm till the party winds down.
+          br
+          br
+          hr
+          br
+          p sign up for email list
+          a(href='mailto:makers-of-no+subscribe@googlegroups.com?subject=Join Makers of NO Group&body=I\'d like to join the Makers of NO group.', target='blank', title='not so snailish mail')
             #email.link
-        
