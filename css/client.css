@@ -13,7 +13,7 @@ body {
 a {
   font-style: italic;
   font-size: 13pt;
-  color: #4f2b5f;
+  color: #640a6e;
 }
 p {
   text-align: center;
@@ -23,7 +23,7 @@ p {
 strong {
   font-variant: small-caps;
   font-size: 18pt;
-  color: #4f2b5f;
+  color: #640a6e;
 }
 #main {
   margin: 50px auto;
@@ -51,10 +51,10 @@ strong {
 }
 .right .stripe {
   width: 100%;
-  color: #4f2b5f;
+  color: #640a6e;
 }
 .right .stripe hr {
-  border-bottom: 1px solid #4f2b5f;
+  border-bottom: 1px solid #640a6e;
 }
 .right .stripe p {
   font-family: 'Economica' sans-serif;
