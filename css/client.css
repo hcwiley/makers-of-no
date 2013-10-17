@@ -87,10 +87,10 @@ strong {
   margin: 0 auto;
 }
 #email:hover {
-  background-image: url("../img/email-hover.svg");
+  background-image: url("../images/email-hover.svg");
 }
 #email {
-  background-image: url("../img/email.svg");
+  background-image: url("../images/email.svg");
 }
 h1 {
   font-family: template-gothic;

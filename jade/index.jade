@@ -3,9 +3,12 @@ html
   head
     title makers of no
     link(href="css/client.css", rel="stylesheet")
+    link(rel='stylesheet', href='css/plusgallery.css')
     meta(name="description", content="Makers of NO. A maker group based in New Orleans, LA.")
     meta(name="keywords", content="maker, makers, hacker, hackers, maker space, space, group, maker group, robotics, hacking, making, nola, new orleans,  louisiana")
     meta(name="author", content="H. Cole Wiley")
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script(src='js/plusgallery.js')
     script(type='text/javascript')
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-37521739-1']);
@@ -20,7 +23,7 @@ html
     #main
       #logo
         h1.hidden Makers of NO
-        img(src='/img/logo.svg', title='Makers of NO')
+        img(src='/images/logo.svg', title='Makers of NO')
       .right
         .stripe
           p we <strong>make</strong> things
@@ -56,3 +59,9 @@ html
             a(href='http://jdeboi.com/portfolio/', target='_blank') Jenna deBoisblanc
             a(href='http://peteleonard.org/wordpress/category/music/', target='_blank') Peter Leonard
             a(href='http://minkaart.net/home/', target='_blank') Minka Stoyanova
+  #plusgallery(data-type='google', data-userid='105127219045425363542', data-album-id='5935758408856780881', data-api-key='Gv1sRgCML7-tj3srzKeg')
+  script
+    $(function(){
+      $('#plusgallery').plusGallery();
+    });
+
