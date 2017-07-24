@@ -137,3 +137,13 @@ h1 {
     color: #640a6e;
   }
 }
+
+input {
+  border: 1px solid #640a6e;
+}
+#mc-embedded-subscribe {
+  border: 1px solid #640a6e;
+  padding: 5px;
+  margin: 5px;
+  background: #fff;
+}
